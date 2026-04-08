@@ -9,11 +9,12 @@ import PostsListPage from "../pages/PostsListPage"
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="/menu" replace />} />
+      <Route path="/" element={<Navigate to="/sobre" replace />} />
 
       <Route element={<SiteLayout />}>
         <Route path="/menu" element={<MenuPage />} />
-        <Route path="/apostas" element={<MenuPage title="Apostas" />} />
+        <Route path="/apostas" element={<Navigate to="/apostas-esportivas" replace />} />
+        <Route path="/apostas-esportivas" element={<MenuPage title="Apostas" />} />
         <Route path="/cassino" element={<MenuPage title="Cassino" />} />
 
         <Route
@@ -34,10 +35,11 @@ function App() {
           element={<PostDetailsPage category="BLOG" listPath="/blog" />}
         />
 
-        <Route path="/contatos" element={<ContatosPage />} />
+        <Route path="/sobre" element={<ContatosPage />} />
+        <Route path="/contatos" element={<Navigate to="/sobre" replace />} />
       </Route>
 
-      <Route path="*" element={<Navigate to="/menu" replace />} />
+      <Route path="*" element={<Navigate to="/sobre" replace />} />
     </Routes>
   )
 }
