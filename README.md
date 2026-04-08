@@ -35,6 +35,14 @@ A saida fica em dist.
 
 A publicacao usa gh-pages e envia a pasta dist para a branch gh-pages.
 
+### Dominio customizado (evitar reset no GitHub Pages)
+
+Este projeto versiona o arquivo public/CNAME com o dominio customizado.
+
+No build, o Vite copia esse arquivo para dist/CNAME e o gh-pages publica junto. Assim o dominio nao volta para github.io apos deploy.
+
+Para alterar o dominio, basta editar public/CNAME.
+
 ### Primeira publicacao
 
 1. Rode:
