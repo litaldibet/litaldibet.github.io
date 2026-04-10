@@ -12,7 +12,7 @@ export default function ContatosPage() {
         É meu laboratório pessoal - onde controlo cada detalhe, de promoções e mercados até a forma como a experiência é construída.<br></br>
         O produto vai muito além da odd e da rodada. Está nos botões, no fluxo, na comunicação e em como tudo se conecta para criar uma jornada clara e funcional.<br></br>
         Aqui, eu exploro ideias, testo hipóteses e tento entender como pequenas decisões podem abrir novas oportunidades todos os dias.<br></br>
-        O projeto ainda está em evolução. Se quiser trocar ideia ou acompanhar o desenvolvimento, <a href="https://www.linkedin.com/in/gabriel-litaldi/" style={{ color: theme.color.accent }}>esse sou eu</a>
+        O projeto ainda está em evolução. Se quiser trocar ideia ou acompanhar o desenvolvimento, <a href="https://www.linkedin.com/in/gabriel-litaldi/" target="_blank" rel="noopener noreferrer" style={{ color: "lightblue", textDecoration: "underline" }}>esse sou eu</a>
       </p>
     </section>
   )

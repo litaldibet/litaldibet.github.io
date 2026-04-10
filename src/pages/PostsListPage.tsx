@@ -71,7 +71,7 @@ export default function PostsListPage({ title, category, routePrefix }: PostsLis
   )
 
   return (
-    <section>
+    <section className="posts-list-page">
       <header className="posts-list-page-header">
         <h1 className="posts-list-page-title">
           {title}
