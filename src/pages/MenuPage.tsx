@@ -11,8 +11,8 @@ export default function MenuPage({ title = "Menu" }: MenuPageProps) {
         {title}
       </h1>
       <p className="menu-page-text">
-        Página sendo implementada.
-      </p>
+        Esta seção está em construção.<br></br>
+        Maiores informações e novas atualizações serão divulgadas <a href="https://www.linkedin.com/in/gabriel-litaldi/" target="_blank" rel="noopener noreferrer" style={{ color: "lightblue", textDecoration: "underline" }}>aqui</a></p>
     </section>
   )
 }

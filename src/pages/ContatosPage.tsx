@@ -5,7 +5,7 @@ export default function ContatosPage() {
   return (
     <section className="contatos-page">
       <h1 className="contatos-page-title">
-        Sobre o Projeto
+        Sobre
       </h1>
       <p className="contatos-page-text">
         A <span style={{ color: theme.color.accent }}>LitaldiBet</span> nasceu como um espaço onde eu posso testar, estruturar e mostrar como penso produto dentro do iGaming.<br></br>
