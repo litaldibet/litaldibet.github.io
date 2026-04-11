@@ -15,3 +15,9 @@
   font-size: 20px;
   line-height: 2;
 }
+
+@media (max-width: 640px) {
+  .contatos-page-text {
+    font-size: 16px;
+  }
+}

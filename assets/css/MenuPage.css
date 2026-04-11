@@ -12,7 +12,13 @@
 .menu-page-text {
   margin-top: 50px;
   color: var(--color-text-muted);
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: 2;
+}
+
+@media (max-width: 640px) {
+  .menu-page-text {
+    font-size: 16px;
+  }
 }
